@@ -62,35 +62,33 @@ function App() {
             <footer>
                 <Tile
                     title="The Brand"
-                    text1="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam eos ex facilis illo pariatur quisquam saepe sed similique tempore voluptas."
-                    text2="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam eos ex facilis illo pariatur quisquam saepe sed similique tempore voluptas."
-                    image=''
-                    alt=''
-                />
+                >
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam eos ex facilis illo pariatur quisquam saepe sed similique tempore voluptas.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam eos ex facilis illo pariatur quisquam saepe sed similique tempore voluptas.
+                    </p>
+                </Tile>
+
 
                 <Tile
-                    title=''
-                    text1=''
-                    text2=''
                     image={brand}
                     alt="Brand"
                 />
 
                 <Tile
-                    title=''
-                    text1=''
-                    text2=''
                     image={our_story}
                     alt="Our story"
                 />
 
                 <Tile
                     title="Our Story"
-                    text1="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto nesciunt porro provident saepe veritatis vitae voluptate? Amet asperiores commodi, dicta eligendi molestiae, nemo neque placeat, quibusdam quod sunt vel velit?"
-                    text2=''
-                    image=''
-                    alt=''
-                />
+                >
+                    <p>
+                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto nesciunt porro provident saepe veritatis vitae voluptate? Amet asperiores commodi, dicta eligendi molestiae, nemo neque placeat, quibusdam quod sunt vel velit?"
+                    </p>
+                </Tile>
             </footer>
         </>
     );
